@@ -26,8 +26,24 @@ The letters in `J` are guaranteed distinct, and all characters in `J` and `S` ar
 
 :arrow_right:[題目連結](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3317/)
 
-## 解題方法
-- find_first_of 函數介紹
+## 解題函數介紹
+- s.find_first_of(string str)
+
+回傳string s中，第一個出現「含有」string str中任一char的index值
+- s.find_first_of(string str, int index)
+
+回傳string s中，從位置index+1開始第一個出現「含有」string str中任一char的index值
+
+### 其他相似函數
+- s.find_last_of(string str) 
+
+回傳**最後一個**出現str中任一char的index值
+- s.find_fitst_not_of(string str)
+
+回傳第一個**不屬於**str中任一char的index值
+- s.find_last_not_of(string str)
+
+回傳最後一個**不屬於**str中任一char的index值
 
 ## C++程式碼
 ```C++
