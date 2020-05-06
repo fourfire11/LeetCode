@@ -10,15 +10,19 @@ The letters in `J` are guaranteed distinct, and all characters in `J` and `S` ar
 
 **Example 1:** 
 
-**Input**: J = "aA", S = "aAAbbbb"
+    Input: 
+    J = "aA", S = "aAAbbbb"
 
-**Output**: 3
+    Output:
+    3
 
 **Example 2:** 
 
-**Input**: J = "z", S = "ZZ"
+    Input:
+    J = "z", S = "ZZ"
 
-**Output**: 0
+    Output: 
+    0
 
 :arrow_right:[題目連結](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3317/)
 
