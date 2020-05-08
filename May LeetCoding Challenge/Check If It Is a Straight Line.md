@@ -36,7 +36,8 @@ public:
         if(coordinates.size()==2) return true;
         else{
             for(int i=1; i<coordinates.size(); i++){
-                if(cross(coordinates[0][0], coordinates[0][1], coordinates[i-1][0], coordinates[i-1][1], coordinates[i][0], coordinates[i][1])!=0)
+                if(cross(coordinates[0][0], coordinates[0][1], coordinates[i-1][0], coordinates[i-1][1],
+                coordinates[i][0], coordinates[i][1])!=0)
                     return false;                
             }
             return true;
