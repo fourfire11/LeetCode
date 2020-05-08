@@ -12,6 +12,9 @@
 - 5/04 : [Number Complement](https://github.com/fourfire11/LeetCode/blob/master/May%20LeetCoding%20Challenge/Number%20Complement.md)
 - 5/05 : [First Unique Character ing a String](https://github.com/fourfire11/LeetCode/blob/master/May%20LeetCoding%20Challenge/First%20Unique%20Character%20in%20a%20String.md)
 - 5/06 : [Majority Element](https://github.com/fourfire11/LeetCode/blob/master/May%20LeetCoding%20Challenge/Majority%20Element.md)
+- 5/07 : [Cousins in Binary Tree]()
+### Week2
+- 5/08 : [Check If It Is a Straight Line]()
 ### Coming soon....
 
 
