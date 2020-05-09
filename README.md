@@ -15,6 +15,7 @@
 - 5/07 : [Cousins in Binary Tree](https://github.com/fourfire11/LeetCode/blob/master/May%20LeetCoding%20Challenge/Cousins%20in%20Binary%20Tree.md)
 ### Week2
 - 5/08 : [Check If It Is a Straight Line](https://github.com/fourfire11/LeetCode/blob/master/May%20LeetCoding%20Challenge/Check%20If%20It%20Is%20a%20Straight%20Line.md)
+- 5/09 : [Valid Perfect Square](https://github.com/fourfire11/LeetCode/blob/master/May%20LeetCoding%20Challenge/Valid%20Perfect%20Square.md)
 ### Coming soon....
 
 
