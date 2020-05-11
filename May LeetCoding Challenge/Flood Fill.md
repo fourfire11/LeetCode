@@ -19,11 +19,11 @@ At the end, return the modified image.
     sr = 1, sc = 1, newColor = 2
     Output: [[2,2,2],[2,2,0],[2,0,1]]
     Explanation: 
-    From the center of the image (with position (sr, sc) = (1, 1)), all pixels connected by a path of the same color as the starting pixel are colored with the new color.
+    From the center of the image (with position (sr, sc) = (1, 1)), all pixels connected by a path of the same color 
+    as the starting pixel are colored with the new color.
     Note the bottom corner is not colored 2, because it is not 4-directionally connected to the starting pixel.
 
 :arrow_right:[題目連結](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3326/)
-
 
 ## C++程式碼 (by DFS)
 ```C++
@@ -33,8 +33,9 @@ public:
         // image[curR][curC]與oriColor不相同有兩種情況
         // 1. image[curR][curC]已經被更改成newColor
         // 2. image[curR][curC]本來的顏色就與image[curR][curC]不同，不需更改
-        // 不管是哪種情況，皆不需要再做更動，故return
-        if(image[curR][curC] != oriColor) return; 
+        // 不管是哪種情況，皆不需要再做更動，故return回前一層
+        if(image[curR][curC] != oriColor) return;
+        
         image[curR][curC] = newColor;
         // 往上走
         if(curR > 0) DFS(image, curR-1, curC, oriColor, newColor);
