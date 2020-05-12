@@ -17,6 +17,7 @@ You are given a sorted array consisting of only integers where every element app
     Output: 10
 
 **Note:** Your solution should run in O(log n) time and O(1) space.
+
 :arrow_right:[題目連結](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3327/)
 
 ## C++程式碼
