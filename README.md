@@ -19,7 +19,9 @@
 - 5/10 : [Find the Town Judge
 ](https://github.com/fourfire11/LeetCode/blob/master/May%20LeetCoding%20Challenge/Find%20the%20Town%20Judge.md)
 - 5/11 : [Flood Fill](https://github.com/fourfire11/LeetCode/blob/master/May%20LeetCoding%20Challenge/Flood%20Fill.md)
-- 5/12 : [Single Element in a Sorted Array](https://github.com/fourfire11/LeetCode/blob/master/May%20LeetCoding%20Challenge/Single%20Element%20in%20a%20Sorted%20Array.md)
+- 5/12 : [Single Element in a Sorted Array](https://github.com/fourfire11/LeetCode/blob/master/May%20LeetCoding%20Challenge/Single%20Element%20in%20a%20Sorted%20Array.md) 
+- 5/13 : [Remove K Digits
+](https://github.com/fourfire11/LeetCode/blob/master/May%20LeetCoding%20Challenge/Remove%20K%20Digits.md)
 ### Coming soon....
 
 
