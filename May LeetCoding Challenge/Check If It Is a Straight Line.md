@@ -23,7 +23,29 @@ You are given an array `coordinates`, `coordinates[i] = [x, y]`, where `[x, y]` 
 :arrow_right:[題目連結](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3323/)
 
 
-## C++程式碼
+## C++程式碼(by 斜率是否相等)
+```C++
+class Solution {
+public:
+    bool checkStraightLine(vector<vector<int>>& coordinates) {
+        if(coordinates.size()==2) return true;
+        
+        int x_0 = coordinates[0][0];
+        int y_0 = coordinates[0][1];
+        int dif_x = x_0 - coordinates[1][0];
+        int dif_y = y_0 - coordinates[1][1];
+        
+        for(int i=2; i < coordinates.size(); i++){
+            int x_i = coordinates[i][0];
+            int y_i = coordinates[i][1];
+            if((y_i-y_0)*dif_x != dif_y*(x_i-x_0)) return false;
+        }
+        return true;
+    }
+};
+```
+
+## C++程式碼(by cross product)
 ```C++
 class Solution {
 public:
@@ -43,5 +65,5 @@ public:
             return true;
         }
     }
-    
 };
+```
