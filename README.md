@@ -27,6 +27,8 @@
 ### Week3
 - 5/15 : [Maximum Sum Circular Subarray](https://github.com/fourfire11/LeetCode/blob/master/May%20LeetCoding%20Challenge/Maximum%20Sum%20Circular%20Subarray.md)
 - 5/16 : [Odd Even Linked List](https://github.com/fourfire11/LeetCode/blob/master/May%20LeetCoding%20Challenge/Odd%20Even%20Linked%20List.md)
+- 5/17 : [Find All Anagrams in a String](https://github.com/fourfire11/LeetCode/blob/master/May%20LeetCoding%20Challenge/Find%20All%20Anagrams%20in%20a%20String)
+- 5/18 : [Permutation in String](https://github.com/fourfire11/LeetCode/blob/master/May%20LeetCoding%20Challenge/Permutation%20in%20String.md)
 ### Coming soon....
 
 
